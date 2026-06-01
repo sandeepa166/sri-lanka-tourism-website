@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Sites of Sri Lanka</title>
+    <link rel="stylesheet" href="placedetails.css">
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <section class="places">
+        <h1 class="place-title">SITES HISTORICAL</h1>
+        <div class="place-list">
+
+            <div class="place-item" data-name="Sigiriya Rock Fortress" 
+                data-description="Sigiriya, also known as the Lion Rock, is one of Sri Lanka’s most iconic landmarks and a UNESCO World Heritage Site. 
+                This ancient rock fortress, built by King Kashyapa in the 5th century AD, rises 200 meters above the surrounding plains. Sigiriya is famous for its stunning frescoes, the Mirror Wall, and the Lion’s Paw entrance, which once led to a grand palace at the summit.
+                 Visitors can climb to the top to explore the remains of the king’s palace and enjoy breathtaking panoramic views of the lush forests below." 
+                data-location="Matale District, Sri Lanka">
+                <p>Sigiriya Rock Fortress</p>
+                <img src="images/Sigiriya Rock Fortress.jpg" alt="Sigiriya Rock Fortress">   
+            </div>
+
+            <div class="place-item" data-name="Anuradhapura" 
+                data-description="Anuradhapura, the first capital of Sri Lanka, is a sacred city and a UNESCO World Heritage Site. It was established in the 4th century BC and flourished as a center of Buddhism and Sinhalese civilization for over 1,300 years. 
+                The city is home to numerous ancient stupas, monasteries, and reservoirs, including the Ruwanwelisaya, Jetavanaramaya, and the Sri Maha Bodhi Tree, a sacred fig tree grown from a cutting of the tree under which Buddha attained enlightenment. 
+                Today, Anuradhapura remains a major pilgrimage site and a treasure trove of history." 
+                data-location=" North Central Province, Sri Lanka">
+                <p>Anuradhapura</p>
+                <img src="images/Anuradhapura.jpg" alt="Anuradhapura">  
+            </div>
+
+            <div class="place-item" data-name="Polonnaruwa" 
+                data-description="Polonnaruwa, Sri Lanka’s second capital, was a thriving city during the 11th and 12th centuries. It is now a UNESCO World Heritage Site, known for its well-preserved ruins of palaces, temples, and sculptures.
+                 One of its most famous attractions is Gal Vihara, a set of four massive Buddha statues carved into granite. Other notable sites include the Royal Palace of King Parakramabahu,
+                 the Vatadage, and the Parakrama Samudra, an ancient reservoir that showcases the advanced irrigation systems of the time.
+                 Polonnaruwa offers a glimpse into Sri Lanka’s medieval history and architectural brilliance." 
+                data-location="North Central Province, Sri Lanka">
+                <p>Polonnaruwa</p>
+                <img src="images/Polonnaruwa.jpg" alt="Polonnaruwa">
+            </div>
+
+            <div class="place-item" data-name="Temple of the Sacred Tooth Relic" 
+                data-description="Located in Kandy, the Temple of the Sacred Tooth Relic (Sri Dalada Maligawa) is one of the most revered Buddhist sites in the world. It houses a sacred tooth relic of Buddha, which is enshrined in a golden casket inside the temple. 
+                The temple is famous for its intricate Kandyan architecture, beautifully decorated halls, and spiritual ambiance. Every year, the temple hosts the Esala Perahera, a grand festival featuring a stunning procession of elephants, dancers, and drummers. 
+                As a UNESCO-listed site, the temple remains a place of worship and a cultural treasure." 
+                data-location="Kandy, Sri Lanka">
+                <p>Temple of the Sacred Tooth Relic</p>
+                <img src="images/Temple of the Sacred.jpg" alt="Temple of the Sacred Tooth Relic">
+            </div>
+
+            <div class="place-item" data-name="Galle Fort" 
+                data-description="Galle Fort is a UNESCO World Heritage Site and a masterpiece of colonial architecture. Originally built by the Portuguese in 1588, it was later fortified by the Dutch in the 17th century. The fort, located along the southern coast of Sri Lanka, 
+                features cobblestone streets, historic churches, museums, and colonial-era buildings. Visitors can explore landmarks such as the Galle Lighthouse, the Dutch Reformed Church, and the Maritime Museum. With its scenic ocean views and charming streets, 
+                Galle Fort is a perfect blend of history and modern-day vibrancy." 
+                data-location="Southern Province, Sri Lanka">
+                <p>Galle Fort</p>
+                <img src="images/Galle Fort.jpg" alt="Galle Fort">
+            </div>
+
+            <div class="place-item" data-name="Mihintale" 
+                data-description="Mihintale is a sacred mountain believed to be the birthplace of Buddhism in Sri Lanka. It was here, in 247 BC, that the Buddhist monk Mahinda met King Devanampiya Tissa, marking the introduction of Buddhism to the island. Today,
+                 Mihintale is a spiritual pilgrimage site featuring ancient stupas, stone stairways, meditation caves, and a massive white Buddha statue. Climbing to the summit provides breathtaking views of the surrounding countryside. 
+                 The serene and historic atmosphere makes Mihintale a must-visit for those exploring Sri Lanka’s religious heritage." 
+                data-location=" Near Anuradhapura, Sri Lanka">
+                <p>Mihintale</p>
+                <img src="images/Mihintale.jpg" alt="Mihintale">
+            </div>
+
+        </div>
+        <br><br><br><br><br><br>
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="category.html">Category</a>
+            <a href="placedetails.html">Place Details</a>
+            <a href="aboutus.html">About Us</a>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="placeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <p><strong>Location:</strong> <span id="modal-location"></span></p>
+        </div>
+    </div>
+
+<script src="place.js"></script>
+</body>
+</html>

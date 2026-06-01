@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Sports of Sri Lanka</title>
+    <link rel="stylesheet" href="placedetails.css">
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <section class="places">
+        <h1 class="place-title">SPORTS ADVENTURE</h1>
+        <div class="place-list">
+
+            <div class="place-item" data-name="Surfing" 
+                data-description="Sri Lanka is a top surfing destination, offering consistent waves, warm waters, and stunning coastal scenery. Whether you're a beginner or a pro, there are perfect surf spots for everyone.
+                 Arugam Bay on the east coast is famous for its powerful right-hand breaks, while Hikkaduwa, Weligama, and Mirissa on the south coast provide excellent waves for all skill levels.
+                  The best time for surfing is from April to October on the east coast and November to April on the south and west coasts." 
+                data-location="Arugam Bay, Hikkaduwa, Weligama, Mirissa">
+                <p>Surfing</p>
+                <img src="images/Surfing.jpg" alt="Surfing">   
+            </div>
+
+            <div class="place-item" data-name="Scuba Diving & Snorkeling " 
+                data-description="Sri Lanka’s tropical waters are home to vibrant coral reefs, shipwrecks, and diverse marine life, making it a paradise for divers and snorkelers. Popular diving spots include Hikkaduwa,
+                 Unawatuna, and Trincomalee, where you can encounter sea turtles, reef sharks, manta rays, and colorful fish. Pigeon Island National Park in Trincomalee is one of the best places for snorkeling,
+                  offering crystal-clear waters and abundant marine biodiversity. The best time for diving is from October to April on the south and west coasts and May to September on the east coast." 
+                data-location=" Hikkaduwa, Trincomalee, Pigeon Island, Kalpitiya, Unawatuna">
+                <p>Scuba Diving & Snorkeling </p>
+                <img src="images/Scuba Diving & Snorkeling.jpg" alt="Scuba Diving & Snorkeling ">  
+            </div>
+
+            <div class="place-item" data-name="White Water Rafting" 
+                data-description="For adrenaline seekers, white water rafting in Kitulgala is an exhilarating experience. The Kelani River, surrounded by lush rainforests,
+                 offers Grade 2 to 4 rapids, making it ideal for both beginners and experienced rafters. The river flows through a scenic jungle, and along the way, you can witness breathtaking waterfalls,
+                  rock pools, and wildlife. The best time for rafting is May to December, when the river levels are high, providing the best rapids for an exciting adventure." 
+                data-location="Kitulgala">
+                <p>White Water Rafting</p>
+                <img src="images/White Water Rafting.jpg" alt="White Water Rafting">
+            </div>
+
+            <div class="place-item" data-name="Hiking & Trekking" 
+                data-description="Sri Lanka’s diverse landscapes provide incredible opportunities for hiking and trekking, with trails passing through lush rainforests,
+                 misty mountains, and cascading waterfalls.The best hiking season is from December to April, when the weather is cooler and drier." 
+                data-location="Adam’s Peak, Knuckles Mountain Range, Ella Rock, Horton Plains">
+                <p>Hiking & Trekking </p>
+                <img src="images/Hiking & Trekking.jpg" alt="Hiking & Trekking">
+            </div>
+
+            <div class="place-item" data-name="Hot Air Ballooning" 
+                data-description="For a once-in-a-lifetime experience, hot air ballooning in Dambulla offers stunning aerial views of Sri Lanka’s cultural and natural beauty.
+                 As you float above lush forests, ancient ruins, and the iconic Sigiriya Rock, you’ll witness breathtaking landscapes at sunrise. The experience is peaceful yet thrilling,
+                  providing a unique perspective of Sri Lanka’s beauty. The best season for hot air ballooning is from November to April, when the skies are clear and the winds are calm." 
+                data-location="Dambulla Sri Lanka">
+                <p>Hot Air Ballooning</p>
+                <img src="images/Hot Air Ballooning.jpg" alt="Hot Air Ballooning">
+            </div>
+
+        </div>
+        <br><br><br><br><br><br>
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="category.html">Category</a>
+            <a href="placedetails.html">Place Details</a>
+            <a href="aboutus.html">About Us</a>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="placeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <p><strong>Location:</strong> <span id="modal-location"></span></p>
+        </div>
+    </div>
+<script src="place.js"></script>
+</body>
+</html>

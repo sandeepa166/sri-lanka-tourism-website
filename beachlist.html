@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beaches of Sri Lanka</title>
+    <link rel="stylesheet" href="placedetails.css">
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <section class="places">
+        <h1 class="place-title">Beaches</h1>
+        <div class="place-list">
+
+            <div class="place-item" data-name="Mirissa Beach" 
+                data-description="Mirissa is a serene beach destination on the southern coast of Sri Lanka, known for its breathtaking sunrises and sunsets. It is one of the best places in the country for whale watching, with opportunities to see blue whales, dolphins, and other marine creatures. Mirissa’s palm-fringed beach is perfect for swimming and sunbathing, 
+                while the surrounding hills offer scenic viewpoints and coconut groves for exploration. " 
+                data-location="Southern Province, Sri Lanka">
+                <p>Mirissa Beach</p>
+                <img src="images/Mirissa.jpg" alt="Mirissa Beach">   
+            </div>
+
+            <div class="place-item" data-name="Hikkaduwa Beach" 
+                data-description="Hikkaduwa is one of Sri Lanka’s most popular beach towns, famous for its vibrant nightlife, coral reefs, and marine life. The beach is a hub for snorkeling and diving, where visitors can explore the colorful underwater world. Hikkaduwa also has a lively atmosphere with beachfront restaurants, bars, and music festivals. 
+                It is a great place for young travelers looking for both relaxation and entertainment.  " 
+                data-location="Southern Province, Sri Lanka">
+                <p>Hikkaduwa Beach</p>
+                <img src="images/Hikkaduwa.jpg" alt="Hikkaduwa Beach">  
+            </div>
+
+            <div class="place-item" data-name="Arugam Bay" 
+                data-description="Arugam Bay is a world-famous surfing destination on Sri Lanka’s east coast. Known for its consistent waves, it attracts surfers from around the globe. Apart from surfing, the area is rich in wildlife, with nearby lagoons and national parks offering opportunities to see elephants, crocodiles, and exotic birds. The laid-back atmosphere,
+                 beachside cafes, and stunning sunrises make Arugam Bay a perfect getaway for adventure seekers and nature lovers alike. " 
+                data-location="Eastern Province, Sri Lanka">
+                <p>Arugam Bay</p>
+                <img src="images/Arugam.jpg" alt="Arugam Bay">
+            </div>
+
+            <div class="place-item" data-name="Bentota Beach" 
+                data-description="Bentota is a beach paradise located on the southwestern coast of Sri Lanka, known for its golden sandy beaches and luxury resorts. It is an ideal location for water sports such as jet skiing, banana boat rides, and scuba diving. The Bentota River adds to the charm, offering scenic boat rides and mangrove tours. 
+                Visitors can also explore nearby turtle hatcheries and cultural attractions, making Bentota a blend of relaxation and adventure. " 
+                data-location="Western Province, Sri Lanka">
+                <p>Bentota Beach</p>
+                <img src="images/Bentota.jpg" alt="Bentota Beach">
+            </div>
+
+            <div class="place-item" data-name="Nilaveli Beach" 
+                data-description="Located on the northeast coast, Nilaveli Beach is a tranquil paradise with soft white sands and crystal-clear waters. It is a great spot for snorkeling and diving, with the famous Pigeon Island National Park just a short boat ride away. The calm waters make it a perfect destination for families and those seeking a peaceful retreat away from the crowds. 
+                Nilaveli is also close to Trincomalee, a historic city with cultural and religious significance." 
+                data-location="Eastern Province, Sri Lanka">
+                <p>Nilaveli Beach</p>
+                <img src="images/Nilaveli.jpg" alt="Nilaveli Beach">
+            </div>
+
+            <div class="place-item" data-name="Unawatuna Beach" 
+                data-description="Unawatuna is a picturesque beach near Galle, known for its crescent-shaped bay and vibrant coral reefs. It is a popular destination for swimming and snorkeling, with calm waters protected by a natural reef. The area has a lively yet relaxed vibe, with charming cafes, seafood restaurants, and yoga retreats. Nearby attractions include the Japanese Peace Pagoda and the historic Galle Fort,
+                 making Unawatuna a perfect blend of beach life and cultural exploration.  " 
+                data-location="Southern Province, Sri Lanka">
+                <p>Unawatuna Beach</p>
+                <img src="images/Unawatuna.jpg" alt="Unawatuna Beach">
+            </div>
+        </div>
+        
+        <br><br><br><br><br>
+
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="category.html">Category</a>
+            <a href="placedetails.html">Place Details</a>
+            <a href="aboutus.html">About Us</a>
+        </div>
+
+    </section>
+
+    <!-- Modal -->
+    <div id="placeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <p><strong>Location:</strong> <span id="modal-location"></span></p>
+        </div>
+    </div>
+<script src="place.js"></script>
+
+</body>
+</html>

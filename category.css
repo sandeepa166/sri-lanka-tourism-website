@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/home-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(8, 8, 8);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 200px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.card {
+    width: 45%;
+    background: black;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+.navbar {
+    background-color: #0066cc;
+    padding: 50px;
+    text-align: center;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+    font-weight: bold;
+    font-size: 1.5em;
+}

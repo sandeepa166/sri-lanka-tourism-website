@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife Parks of Sri Lanka</title>
+    <link rel="stylesheet" href="placedetails.css">
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <section class="places">
+        <h1 class="place-title">PARKS WILDLIFE</h1>
+        <div class="place-list">
+
+            <div class="place-item" data-name="Yala National Park" 
+                data-description="Yala National Park is Sri Lanka’s most famous and visited wildlife park, known for having the highest leopard density in the world. Located in the southeastern part of the country, Yala offers a mix of dense jungles, open grasslands,
+                 lagoons, and coastal shores, creating an ideal habitat for a diverse range of animals. Apart from leopards, the park is home to elephants, sloth bears, crocodiles, deer, and over 200 bird species. Jeep safaris in Yala provide a thrilling experience,
+                  allowing visitors to witness these majestic creatures up close." 
+                data-location="Southeastern Sri Lanka">
+                <p>Yala National Park</p>
+                <img src="images/Yala National Park.jpg" alt="Yala National Park">   
+            </div>
+
+            <div class="place-item" data-name="Wilpattu National Park" 
+                data-description="Wilpattu National Park is Sri Lanka’s largest and one of its oldest national parks, spanning over 131,000 hectares. It is known for its natural lakes called 'villus,' which attract a variety of wildlife, including leopards, elephants,
+                 sloth bears, sambar deer, and crocodiles. Located in the northwestern part of Sri Lanka, Wilpattu provides a less crowded and more serene safari experience compared to Yala, making it ideal for those who prefer peaceful wildlife exploration. " 
+                data-location="Northwestern Sri Lanka">
+                <p>Wilpattu National Park</p>
+                <img src="images/Wilpattu National Park.jpg" alt="Wilpattu National Park">  
+            </div>
+
+            <div class="place-item" data-name="Udawalawe National Park" 
+                data-description="Udawalawe National Park is one of the best places in Sri Lanka to see wild elephants, with large herds frequently spotted near the Udawalawe Reservoir. The park’s open grasslands and wetlands create a perfect setting for elephants,
+                 water buffalo, spotted deer, crocodiles, and numerous bird species. Located in southern Sri Lanka, Udawalawe offers excellent safari opportunities,
+                  and the nearby Udawalawe Elephant Transit Home rehabilitates orphaned elephant calves before releasing them back into the wild." 
+                data-location="Southern Sri Lanka">
+                <p>Udawalawe National Park</p>
+                <img src="images/Udawalawe National Park.jpg" alt="Udawalawe National Park">
+            </div>
+
+            <div class="place-item" data-name="Minneriya National Park" 
+                data-description="Minneriya National Park is world-famous for 'The Gathering,' one of the largest elephant gatherings on Earth. Every year, from July to September, hundreds of elephants migrate to the Minneriya Tank in search of water,
+                 creating a spectacular sight for visitors. In addition to elephants, Minneriya is home to monkeys, sambar deer, crocodiles, and a variety of birds. The park is part of an elephant corridor,
+                  allowing free movement of elephants between other parks like Kaudulla and Wasgamuwa." 
+                data-location="North Central Sri Lanka">
+                <p>Minneriya National Park</p>
+                <img src="images/Minneriya National Park.jpg" alt="Minneriya National Park">
+            </div>
+
+            <div class="place-item" data-name="Kaudulla National Park" 
+                data-description="Kaudulla National Park is another excellent elephant-watching destination located near Minneriya. It features lush forests, open grasslands, and a large reservoir, attracting elephants,
+                 leopards, sloth bears, and water birds. The park is particularly stunning during the rainy season when the reservoir fills up, attracting even more wildlife.
+                  Kaudulla offers an authentic safari experience with fewer crowds compared to Minneriya." 
+                data-location="North Central Sri Lanka">
+                <p>Kaudulla National Park</p>
+                <img src="images/Kaudulla National Park.jpg" alt="Kaudulla National Park">
+            </div>
+
+            <div class="place-item" data-name="Horton Plains National Park" 
+                data-description="Horton Plains National Park is a unique high-altitude plateau in Sri Lanka’s central highlands, known for its breathtaking landscapes, cloud forests, and grasslands.
+                 The park is home to sambar deer, purple-faced langurs, and a variety of endemic birds. One of its most famous attractions is World’s End, a dramatic 1,200-meter cliff that offers stunning panoramic views.
+                  Horton Plains also features Baker’s Falls, a picturesque waterfall surrounded by lush greenery. Due to its cool climate and scenic trails, Horton Plains is a popular destination for nature lovers and hikers." 
+                data-location="Central Sri Lanka">
+                <p>Horton Plains National Park</p>
+                <img src="images/Horton Plains National Park.jpg" alt="Horton Plains National Park">
+            </div>
+
+        </div>
+        <br><br><br><br><br><br>
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="category.html">Category</a>
+            <a href="placedetails.html">Place Details</a>
+            <a href="aboutus.html">About Us</a>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="placeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <p><strong>Location:</strong> <span id="modal-location"></span></p>
+        </div>
+    </div>
+
+   <script src="place.js"></script>
+</body>
+</html>

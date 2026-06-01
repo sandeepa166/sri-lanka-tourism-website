@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountains of Sri Lanka</title>
+    <link rel="stylesheet" href="placedetails.css">
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <section class="places">
+        <h1 class="place-title">MOUNTAINS</h1>
+        <div class="place-list">
+
+            <div class="place-item" data-name="Adam’s Peak (Sri Pada)" 
+                data-description="Adam’s Peak, standing at 2,243 meters, is one of Sri Lanka’s most famous and sacred mountains. It is revered by multiple religions: Buddhists believe it holds the footprint of Buddha,
+                 Hindus attribute it to Lord Shiva, while Christians and Muslims associate it with Adam’s first step after being expelled from paradise.
+                  Pilgrims and adventurers alike take on the challenging night climb to witness the breathtaking sunrise from the summit. 
+                  The panoramic views and the magical 'Shadow of the Peak' phenomenon, where the mountain casts a triangular shadow, make it a truly unforgettable experience. " 
+                data-location=" Central Sri Lanka (Ratnapura District)">
+                <p>Adam’s Peak</p>
+                <img src="images/Adam’s Peak.jpg" alt="Adam’s Peak (Sri Pada)">   
+            </div>
+
+            <div class="place-item" data-name="Pidurutalagala (Mount Pedro)" 
+                data-description="Pidurutalagala, at 2,524 meters, is the highest mountain in Sri Lanka. Located near Nuwara Eliya, 
+                it serves as an important communication and military base, restricting public access to its peak. However, the surrounding area offers scenic beauty with mist-covered forests and a cool climate. The mountain plays a crucial role in Sri Lanka’s ecosystem, as it houses rare flora and fauna. While climbing to the summit is not allowed, 
+                visitors can still enjoy the breathtaking highland landscapes of the region." 
+                data-location="Nuwara Eliya, Sri Lanka">
+                <p>Pidurutalagala</p>
+                <img src="images/Pidurutalagala.jpg" alt="Pidurutalagala (Mount Pedro)">  
+            </div>
+
+            <div class="place-item" data-name="Kirigalpotta" 
+                data-description="Kirigalpotta is the second-highest accessible peak in Sri Lanka, standing at 2,388 meters. 
+                It is a favorite among trekkers, as the trail passes through Horton Plains National Park, a UNESCO World Heritage Site known for its unique montane ecosystem. The trek to the summit is challenging but rewarding, offering sights of wildflowers, cloud forests, and even elusive wildlife such as leopards and sambar deer. Since it is less crowded compared to other mountains,
+                 Kirigalpotta is ideal for those seeking solitude in nature." 
+                data-location="Horton Plains National Park">
+                <p>Kirigalpotta</p>
+                <img src="images/Kirigalpotta.jpg" alt="Kirigalpotta">
+            </div>
+
+            <div class="place-item" data-name="Namunukula" 
+                data-description="Namunukula, meaning 'Nine Peaks' in Sinhala, is a 2,036-meter mountain located in the Uva Province. 
+                It dominates the landscape around Badulla and Ella, offering dramatic views of rolling tea plantations and distant hills. 
+                The trek to the summit can be strenuous, but the rewarding vistas make it worth the effort. The mountain has historical significance,
+                 as it was once an important landmark for ancient travelers. For hikers, the combination of misty forests, scenic trails,
+                  and panoramic scenery makes Namunukula a hidden gem." 
+                data-location="Uva Province (near Badulla), Sri Lanka">
+                <p>Namunukula</p>
+                <img src="images/Namunukula.jpg" alt="Namunukula">
+            </div>
+
+            <div class="place-item" data-name="Ella Rock" 
+                data-description="Ella Rock, standing at approximately 1,041 meters, is one of Sri Lanka’s most popular hiking destinations.
+                 Located in the charming town of Ella, it offers a moderately challenging trek through tea plantations, eucalyptus forests, and rocky paths. 
+                 The summit provides a spectacular view of the Ella Gap, a stunning valley framed by towering mountains. It is a favorite among nature lovers and photographers, as the sunrise and sunset views from the top are truly mesmerizing.
+                 The hike takes around 2-3 hours and is perfect for those looking for adventure without extreme difficulty." 
+                data-location="Ella , Sri Lanka">
+                <p>Ella Rock</p>
+                <img src="images/Ella Rock.jpg" alt="Ella Rock">
+            </div>
+
+        </div>
+        <br><br><br><br><br><br>
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="category.html">Category</a>
+            <a href="placedetails.html">Place Details</a>
+            <a href="aboutus.html">About Us</a>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="placeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <p><strong>Location:</strong> <span id="modal-location"></span></p>
+        </div>
+    </div>
+
+<script src="place.js"></script>
+</body>
+</html>
